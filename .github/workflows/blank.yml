@@ -65,5 +65,5 @@ jobs:
           echo test, and deploy your project.
       - name: Deploy to Coolify
         run: |
-          curl -X GET "http://dashboard.a0gv.tech/api/v1/deploy?uuid=jo00kkoks4c0gkkggcs80wog&force=false" \
+          curl -v -X GET "https://dashboard.a0gv.tech/api/v1/deploy?uuid=jo00kkoks4c0gkkggcs80wog&force=false" \
           -H "Authorization: Bearer ${{ secrets.COOLIFYAUTODEPLOY }}"
