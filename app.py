@@ -5,7 +5,7 @@ import time
 app= Flask(__name__)
 
 """
-Hola esto es una prueb
+Hola esto es una prueba
 """
 
 def get_db_connection():
